@@ -1,0 +1,21 @@
+# Replace PROJECT_NAME and APP_ID with your project and app IDs
+appId: https://stacksmith.bitnami.com/p/PROJECT_NAME/apps/APP_ID
+appVersion: "20"
+appName: Fedora Golden Image
+files:
+  userScripts:
+    build: ../common/scripts/build.sh
+  userUploads:
+    - ../common/conf/aide.conf
+    - ../common/conf/auditd.conf
+buildOptions:
+  assumeBaseImageFreshness: true
+platforms:
+  - target: docker
+  - target: aws
+baseImages:
+  docker:
+    name: "fedora:20"
+  aws:
+    ami_id: "ami-21362b48"
+    ssh_username: "fedora"
