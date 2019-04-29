@@ -1,3 +1,5 @@
+# Replace PROJECT_NAME and APP_ID with your project and app IDs
+appId: https://stacksmith.bitnami.com/p/PROJECT_NAME/apps/APP_ID
 appVersion: "7"
 files:
   userScripts:
