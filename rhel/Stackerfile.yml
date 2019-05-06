@@ -1,5 +1,5 @@
 # Replace PROJECT_NAME and APP_ID with your project and app IDs
-appId: https://stacksmith.bitnami.com/p/PROJECT_NAME/apps/APP_ID
+appId: https://stacksmith.bitnami.com/p/vmware-aws-sandbox/apps/da399ac5-a621-4af8-91df-e4566cd2b82e
 appVersion: "7"
 appName: RHEL Golden Image
 files:

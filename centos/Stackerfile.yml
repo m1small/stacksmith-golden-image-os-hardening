@@ -1,5 +1,5 @@
 # Replace PROJECT_NAME and APP_ID with your project and app IDs
-appId: https://stacksmith.bitnami.com/p/PROJECT_NAME/apps/APP_ID
+appId: https://stacksmith.bitnami.com/p/vmware-aws-sandbox/apps/deabb2ec-7c82-4896-8834-dc5da8325927
 appVersion: "7"
 files:
   userScripts:
