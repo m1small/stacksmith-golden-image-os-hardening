@@ -1,6 +1,7 @@
 # Replace PROJECT_NAME and APP_ID with your project and app IDs
 appId: https://stacksmith.bitnami.com/p/vmware-aws-sandbox/apps/deabb2ec-7c82-4896-8834-dc5da8325927
 appVersion: "7"
+appName: "Hardened CentOS"
 files:
   userScripts:
     build: ../common/scripts/build.sh

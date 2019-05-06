@@ -1,7 +1,7 @@
 # Replace PROJECT_NAME and APP_ID with your project and app IDs
 appId: https://stacksmith.bitnami.com/p/vmware-aws-sandbox/apps/da399ac5-a621-4af8-91df-e4566cd2b82e
 appVersion: "7"
-appName: RHEL Golden Image
+appName: "Hardened RHEL"
 files:
   userScripts:
     build: ../common/scripts/build.sh

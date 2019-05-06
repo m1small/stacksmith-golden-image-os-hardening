@@ -1,7 +1,7 @@
 # Replace PROJECT_NAME and APP_ID with your project and app IDs
 appId: https://stacksmith.bitnami.com/p/vmware-aws-sandbox/apps/a609c322-5d03-4cc5-9e7c-2d67c3411a5a
 appVersion: "20"
-appName: Fedora Golden Image
+appName: "Hardened Fedora"
 files:
   userScripts:
     build: ../common/scripts/build.sh
